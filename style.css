@@ -1,5 +1,25 @@
 body {
-    margin: 0;
-    overflow: hidden;
-  }
-  
+  margin: 0;
+  overflow: hidden;
+}
+
+button {
+  position:absolute;
+  left:3%;
+  top:5%;
+  border: none;
+  color: #EEF4ED;
+  background-color: #13315C;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}  
+
+button:hover {
+  background-color: #134074;
+}
